@@ -1,0 +1,797 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ru" xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="ППФ, Страхование жизни, Личный кабинет, ППФ Страхование жизни, Застраховаться, Страхование, Страховые продукты" />
+    <meta name="description" content="ППФ Страхование жизни – Личный кабинет страхователя" />
+    <link href="css/page_1b3b56b8c630421776a31ce15d435f30_ab151fb6c7ced615d806b800732a20c3.css" type="text/css" rel="stylesheet" />
+    <link href="css/kernel_main.css" type="text/css" rel="stylesheet" />
+    <link href="css/template_2fdfded9270466aaae6c3ecff5c2577f_e6f72e00fc551ac5a1d3bb873995129d.css" type="text/css" rel="stylesheet" />
+	<link href="css/404.css" type="text/css" rel="stylesheet" />
+    <title>ППФ Страхование жизни - Личный кабинет</title>
+</head>
+
+<body>
+
+
+
+    <div class="mask">
+
+        <div class="modal" id="tdText1">
+            <div class="head bg-gray">Социальные налоговые вычеты</div><div class="close"></div>
+            <div class="block">
+                Социальные налоговые вычеты предоставляются в размере фактически понесенных расходов, но ограничены в целом предельной суммой в 120 тыс. рублей. То есть максимальная сумма налога, возвращаемая налогоплательщику, составит 15 600 руб. Сумма вычета в 120 000 рублей включает в себя все виды социальных вычетов за год ( за обучение, лечение, пенсионное обеспечение, кроме вычетов на благотворительность) . Ст.219
+            </div>
+        </div>
+
+        <div class="modal" id="tdText2">
+            <div class="head bg-gray">Для договоров</div><div class="close"></div>
+            <div class="block">
+                Для договоров страхования жизни близкий родственник – это супруга/супруг, родители (в том числе усыновители), дети (в том числе усыновленные или находящиеся под опекой/попечительством).<br>
+                Для договоров добровольного пенсионного страхования близкий родственник – это супруга/супруг (в том числе вдовец, вдова), родители ( в том числе усыновители), дети-инвалиды (усыновленные или находящиеся под опекой). Ст.219
+            </div>
+        </div>
+
+        <div class="modal" id="tdText3">
+            <div class="head bg-gray">Налог</div><div class="close"></div>
+            <div class="block">
+                Налог на доходы физических лиц (НДФЛ) — основной вид прямых налогов. Исчисляется в процентах от совокупного дохода физических лиц за вычетом документально подтверждённых расходов, в соответствии с действующим законодательством.
+            </div>
+        </div>
+        <div class="modal" id="inquiryErorrs">
+            <div class="head bg-gray">Внимание!<div class="close"></div></div>
+            <div class="block">
+                <div class="field inquiryErorrsField">
+                    <label>Внимание</label>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+        <div  class="modal" id="onlinedoctorerror">
+            <div class="head bg-gray">Уважаемый клиент!</div><div class="close"></div>
+            <div class="block">
+                Номер телефона, указанный в Вашем ЛК <a style="text-decoration: underline" href="https://ppf.onlinedoctor.ru">ppf.onlinedoctor.ru</a>, не совпадает с номером телефона в системе ППФ. Перейдите на сайт <a style="text-decoration: underline" href="https://ppf.onlinedoctor.ru">ppf.onlinedoctor.ru</a> и пройдите авторизацию.<br/>
+            </div>
+        </div>
+
+        <div class="modal" id="choosecalendare">
+            <div class="head bg-gray">Выберите период</div><div class="close"></div>
+            <div class="block">
+                <br/>
+                <table style="width:100%">
+                    <tr>
+                        <td>Начало периода:</td>
+                        <td><input  name="date_from" id="date_from" value="01.01" style="text-align:center; width:70px;"></td>
+
+
+                        <td>окончание:</td>
+                        <td><input name="date_to" id="date_to" style="text-align:center;width:60px;" value=20.11></td>
+                    </tr>
+                </table>
+
+                <br><br/>
+                <a class="lk-table-btn inquiry_zakaz_zakazat_input_final" href="#1">Заказать</a>
+
+            </div>
+        </div>
+
+        <div class="modal" id="changeLogin">
+            <div class="head bg-gray">Сменить логин<div class="close"></div></div>
+            <div class="block">
+                <form class="small-margin" id="editInfoLoginForm">
+                    <div class="field">
+                        <label>Новый логин</label>
+                        <div class="input"><input type="text" name="newLogin"></div>
+                    </div>
+                    <div class="field">
+                        <label>Текущий пароль</label>
+                        <div class="input"><input type="password" name="thisPassword"></div>
+                    </div>
+                    <a class="btn btn-orange pull-right openModal" id="editInfoLoginSubmit" href="#yourData">Изменить</a>
+                    <div style="clear:both;"></div>
+                </form>
+            </div>
+        </div>
+
+        
+                <div class="modal" id="paymentWindow" style="width: 778px;">
+            <div class="head bg-gray">Выберите способ оплаты | <a href="#" class = "back">Назад</a></div><div class="close"></div>
+            <div class="payment-block">
+                <div class="payment-item border-bottom amount" style = "font-size:1.5em" align="center"></div>
+                <div class="payment-item border-bottom" style="padding-bottom: 5px; padding-bottom: 5px; background:url('/bitrix/templates/ppf/img/visa_.jpg') no-repeat  42% 0, url('/bitrix/templates/ppf/img/mc_.jpg') no-repeat  57% 0, url('/bitrix/templates/ppf/img/mir_.jpg') no-repeat  73% 0">
+                    <div class="left">Оплата взноса по банковской карте</div>
+                    <div class="right"><a class="btn pay-sbr" style="width: 130px;text-align: center;" href="#">Оплатить</a></div>
+
+                    <div class="bottom-left">
+                        <div class="tooltip-wrap"><a>Информация</a>
+                            <div class="tooltip">
+                                Для оплаты покупки Вы будете перенаправлены на платежный шлюз ОАО "Сбербанк России" для ввода реквизитов Вашей карты. Пожалуйста, приготовьте Вашу пластиковую карту заранее. Соединение с платежным шлюзом и передача информации осуществляется в защищенном режиме с использованием протокола шифрования SSL.
+В случае если Ваш банк поддерживает технологию безопасного проведения интернет-платежей Verified By Visa или MasterCard Secure Code для проведения платежа, также может потребоваться ввод специального пароля. Способы и возможность получения паролей для совершения интернет-платежей Вы можете уточнить в банке, выпустившем карту.                            </div>
+                        </div>
+                    </div>
+
+                        <br/>
+                    <div  class="payment-atol-info-text" style="font-size:12px;">
+                                                    
+                            <p>Email по умолчанию для получения документов подтверждающих оплату (в т.ч. фискальный чек) не указан, Вы можете установить email в разделе <strong><a href="/personal-profile/">Мой профиль</a></strong></p>
+                            <p> На следующем этапе Банк предложит Вам указать электронную почту для отправки уведомления – это поле не обязательное для заполнения. Вся необходимая документация по оплате, в том числе и уведомление Банка, будет направлена на email указанный на данном этапе.</p>
+                                                </div>
+
+                </div>
+                
+
+                <div class="payment-item border-bottom" style="margin-bottom: 10px; background:url('/bitrix/templates/ppf/img/pochtaRF.jpg') no-repeat  43% 50%;">
+                    <div class="left" >Оплата взноса почтой РФ</div>
+                    <div class="right" >
+                        <a class="print_blank btn" href="#PrintBlank" style="width: 130px;text-align: center;" onclick="fillFormPrintBlank()">Печать квитанции</a>
+                    </div>
+                </div>
+                                <div class="payment-item border-bottom">
+                    <div class="left">Оплата банковским переводом</div>
+                    <div class="right"><a href="/content/requisites.php" class="btn bx-payment-print" style="width: 130px;text-align: center; " target="_blank">Печать реквизитов</a></div>
+                    <!-- <div class="bank-partner-row" style="margin-top:35px;">
+                        <div>
+                                                       
+                        </div>
+                    </div>-->
+                </div>
+                <div class = "payment-item" style="line-height: 1.5em">
+                    <p> Уважаемые клиенты,<br>
+                        При возникновении технических сбоев, влекущих двойное списание денежных средств с банковской карты, или иных спорных ситуаций, связанных с оплатой и прохождением платежа, убедительно просим вас обращаться изначально <span style = "font-size:1.05em"><strong><i>непосредственно в Центральный офис Компании (по телефону горячей линии 8-800-775-82-00 или через Обратную связь на сайте Компании), <font color="red">а не в Банк.</i></font></strong></span></p>
+                    <p>Это позволит <span style = "font-size:1.05em"><strong><i>быстро</i></strong></span> урегулировать все возникающие вопросы, так как, например, в случае двойного списания денежных средств с банковской карты, эти деньги в полном объеме поступают на расчетный счет Компании, и только она может оперативно их вернуть.  Обращения в Банк существенно усложняют процесс передачи информации между плательщиком, банком и компанией, требуют составление разнообразных заявлений и объяснительных и, главное, серьезно удлиняют процесс возврата денег или подтверждение их поступления на счета Компании.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Окно ввода суммы-->
+        <div id="InputSum"  style="position: absolute;  top: 60px;  z-index: 999999;  left: 50%;  width: 350px;  margin-left: -175px;">
+            <div class="head bg-gray">Укажите сумму</div><div class="close"></div>
+            <div class="payment-sum">
+                <div style="text-align: center;">
+                    <span style="font-size: 18px;">Введите сумму для оплаты:</span>
+                    <div class="sbr-sum">
+                        <input type="text" onkeypress="return checkinput(event)">
+                        <span  style="font-size: 18px;">руб.</span>
+                    </div>
+                </div>
+                <div style="display:block;margin-top:20px">
+                    <span class="left">
+                        <a class="btn btn-close" style="width: 130px;text-align: center;">Отмена</a>
+                    </span>
+                    <span style="float: right;">
+                        <a class="btn btn-add"  style="width: 130px;text-align: center;">Продолжить</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+                <div class="modal" id="informationPaymentInProcess">
+    <div class="head bg-gray">Платеж в обработке<div class="close"></div></div>
+    <div class="block">
+        Денежные средства поступят в счет оплаты Вашего договора страхования в течение 3-5 рабочих дней.    </div>
+</div>
+
+
+<div class="modal" id="informationAboutStatement">
+    <div class="head bg-gray">Решение по заявлению принято<div class="close"></div></div>
+    <div class="block">
+        О принятом решении в адрес заявителя направляется информационное письмо по Почте РФ.    </div>
+</div>
+
+
+<div class="modal" id="informationAboutContract">
+    <div class="head bg-gray">Информация о договоре<div class="close"></div></div>
+    <div class="block">
+        У Вас есть возможность управлять своим договором страхования жизни в течение срока его действия, например, вносить финансовые изменения, такие как увеличение и расширение своей страховой защиты, подключение дополнительных программ и индексации и многое другое.    </div>
+</div>
+
+
+<div class="modal" id="informationBaseProgramm">
+    <div class="head bg-gray">Базовая программа<div class="close"></div></div>
+    <div class="block">
+        Базовая программа – это основная неотъемлемая часть Вашего договора страхования жизни, которая обеспечивает защиту Вашей жизни и Ваши накопления. В течение срока действия договора Вы можете увеличить страховую сумму по базовой программе с помощью опции «Финансовые изменения» и «Индексация». Узнайте подробности у Вашего финансового консультанта!    </div>
+</div>
+
+
+<div class="modal" id="informationAdditionalProgramm">
+    <div class="head bg-gray">Дополнительная программа<div class="close"></div></div>
+    <div class="block">
+        Дополнительные программы – это часть Вашего договора страхования жизни, которая расширяет диапазон Вашей защиты. Вы можете моделировать договор в течение срока его действия, включая дополнительные программы и риски с помощью опции «финансовые изменения». Узнайте о возможностях Вашего договора у финансового консультанта!    </div>
+</div>
+
+
+<div class="modal" id="informationIndexingContract">
+    <div class="head bg-gray">Страховая сумма с индексацией<div class="close"></div></div>
+    <div class="block">
+        Индексация - это одновременное увеличение страховой суммы и страхового взноса по Вашему договору. Этот удобный финансовый инструмент позволяет поддерживать актуальность уровня защиты Вашей жизни и Ваших накоплений. Узнайте о возможностях включения индексации у Вашего финансового консультанта или по телефону горячей линии!    </div>
+</div>
+
+
+<div class="modal" id="informationIndexingContractYear">
+    <div class="head bg-gray">Принята индексация года(ов)<div class="close"></div></div>
+    <div class="block">
+        Индексация - это одновременное увеличение страховой суммы и страхового взноса по Вашему договору. Этот удобный финансовый инструмент позволяет поддерживать актуальность уровня защиты Вашей жизни и Ваших накоплений. Узнайте о возможностях включения индексации у Вашего финансового консультанта или по телефону горячей линии!    </div>
+</div>
+
+
+<div class="modal" id="informationDatePayment">
+    <div class="head bg-gray">Дата ближайшего платежа<div class="close"></div></div>
+    <div class="block">
+        Для сохранения Вашей страховой защиты необходимо производить оплату взноса по договору до указанной даты.    </div>
+</div>
+
+
+<div class="modal" id="informationMethodNotification">
+    <div class="head bg-gray">Способ получения уведомлений<div class="close"></div></div>
+    <div class="block">
+        Вы можете легко выбрать или изменить способ получения уведомлений по данному договору.    </div>
+</div>
+
+
+<div class="modal" id="informationPeriodPayment">
+    <div class="head bg-gray">Периодичность платежей<div class="close"></div></div>
+    <div class="block">
+        В течение действия Вашего договора страхования жизни Вы можете менять периодичность платежей и выбрать наиболее удобный (раз в квартал, в полгода, в год). При изменении периодичности оплаты с &laquo;ежеквартально&raquo; на &laquo;ежегодно&raquo; или &laquo;раз в полгода&raquo; Вы сможете сэкономить <b>5%</b> и <b>2%</b>, соответственно, а при смене с &laquo;раз в полгода&raquo; на &laquo;ежегодно&raquo; экономия составит <b>3%</b>. Изменения вступают в силу в годовщину полиса. <br>
+Обратитесь к Вашему финансовому консультанту или по телефону горячей линии!    </div>
+</div>
+
+
+<div class="modal" id="informationAddress">
+    <div class="head bg-gray">Адрес регистрации/почтовый<div class="close"></div></div>
+    <div class="block">
+        Как изменить почтовый адрес и адрес регистрации, Вы можете узнать в разделе <a href="https://my.ppfinsurance.ru/change-personal/">"Изменение персональных данных"</a>.    </div>
+</div>
+
+
+
+                    <div class="modal" id="Rules">
+                <div class="head bg-gray">Правила<div class="close"></div></div>
+                <div class="block">
+                    <p>В течение срока страхования по Договору страхования можно изменить инвести-
+                        ционную стратегию. Изменение инвестиционной стратегии осуществляется через
+                        личный кабинет клиента на официальном сайте Страховщика не позднее, чем
+                        за 00 часов 00 минут последнего рабочего дня до даты, установленной Страхов-
+                        щиком, для возможной смены инвестиционной стратегии. Даты для возможной
+                        смены инвестиционной стратегии устанавливаются Страховщиком на календар-
+                        ный год не позднее 31 января каждого календарного года, публикуются на офици-
+                        альном сайте Страховщика и являются фиксированными в течение календарного
+                        года. Смена стратегии возможна не ранее чем через 6 месяцев после вступления
+                        договора в силу. За 3-ю и последующую смену инвестиционной стратегии взима-
+                        ется комиссия в размере 0,4% от стоимости инвестиционного части на дату смены
+                        стратегии, но не менее 600 рублей.</p>
+                    <p>Стоимость инвестиционной части на дату расчета определяется как суммарная
+                        стоимость инвестиционных инструментов, составляющих инвестиционную часть
+                        на момент расчета. Если дата расчета выпадает на нерабочий день, стоимость ин-
+                        вестиционной части на дату расчета принимается равной стоимости инвестицион-
+                        ной части на предшествующий рабочий день.</p>
+                </div>
+            </div>
+                <div class="modal" id="changePassword">
+            <div class="head bg-gray">Сменить пароль<div class="close"></div></div>
+            <div class="block">
+                <form class="small-margin" id="editNewPasswordForm">
+                    <div class="field">
+                        <label>Текущий пароль</label>
+                        <div class="input"><input type="password" name="thisPassword"></div>
+                    </div>
+                    <div class="field">
+                        <label>Новый пароль</label>
+                        <div class="input"><input type="password" name="newPassword"></div>
+                    </div>
+                    <div class="field">
+                        <label style="margin-top:12px;display: block;">Повторите новый пароль</label>
+                        <div class="input"><input type="password" name="newDublPassword"></div>
+                    </div>
+                    <a class="btn btn-orange pull-right openModal" id="editNewPasswordSubmit" href="#yourData">Изменить</a>
+                    <div style="clear:both;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal" id="payment-form">
+	<div class="head bg-gray">Укажите сумму оплаты. Номер договора: <span class="con-number"></span><div class="close"></div></div>
+	<div class="block">
+		<table>
+			<thead>
+				<tr>
+					<td></td>
+					<td>Тип платежа</td>
+					<td>Дата платежа</td>
+					<td></td>
+					<td>Сумма взноса</td>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<p align = "right">Введите сумму для оплаты: <input class = "output" type="text"><span class="cur"></span></p>
+
+		<div class="payment-atol-info-warning"><b>Внимание!</b><br/>Оплата договора только лично Страхователем или с его личных банковских карт позволяет оформить налоговый вычет.</div><br/>
+
+		<button class="btn btn-blue pull-right continue">Продолжить...</button>
+		<div class="clear"></div>
+			</div>
+</div>
+
+                <div class="modal" id="errorWindow">
+            <div class="head bg-gray">Сменить пароль</div><div class="close"></div>
+            <div class="block">
+                тектс
+            </div>
+        </div>
+
+                        <div class="modal" id="AskedAddContact" style="width: 627px;">
+            <div class="block" style="width: 627px;">
+                <div style="text-align: center;line-height: 36px;font-weight: bold;color: #000080;font-family: -webkit-body;">
+                    Уважаемый клиент,<br>
+                    в Ваших личных данных не указан
+                                                                    адрес электронной почты(e-mail).
+                                        Хотите добавить?<br>
+                </div>
+
+                <div style="display: block;height: 60px;text-align: center;border-bottom: 1px solid;">
+                    <div style="display: inline-block;float:left;">
+                        <input type="button" class="btn btn-orange pull-left bx-add mt20" value="Добавить" onclick="fillFormAddUser('284129578', 5)">
+                    </div>
+                    <div  style="display: inline-block;margin-top: 27px;margin-left: 150px;">
+                        <label for="bx-skip-checkbox">Больше не спрашивать</label>
+                        <input id="bx-skip-checkbox" type="checkbox" name="skip_add_contact_year">
+                    </div>
+                    <div style="display: inline-block;float:right;"><input type="button" class="btn btn-orange pull-right bx-later mt20" value="Добавить позже"></div>
+                </div>
+                <div style="margin-top: 20px;font-size: 13px;color: #D3D3D3; text-align: center;">
+                                                                    Адрес электронной почты не будет передан третьим лицам или использоваться в рекламных целях. Добавив адрес электронной почты,
+                        Вы сможете получать на него уведомления из Личного кабинета, а также выбрать  его для получения информации по договору (раздел&nbsp;"Способ&nbsp;получения&nbsp;уведомлений").
+                    
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+
+        <div class="modal" id="editInfoAddress">
+            <div class="head bg-gray"><span id="tid_address_type"></span><div class="close"></div></div>
+            <div class="block inline-form">
+                <form class="small-margin" id="editInfoAddressForm">
+                    <input type="hidden" id="tid_cad_id" name="tid_cad_id">
+                    <div class="field middle">
+                        <label>Индекс</label>
+                        <div class="input"><input type="text" id='tid_ad_index' name='tid_ad_index'></div>
+                    </div>
+                    <div class="field middle">
+                        <label>Область</label>
+                        <div class="input"><input type="text" id="tid_ad_district" name="tid_ad_district"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="field">
+                        <label>Район</label>
+                        <div class="input"><input type="text" id="tid_ad_area" name="tid_ad_area"></div>
+                    </div>
+                    <div class="field middle">
+                        <label>Город</label>
+                        <div class="input"><input type="text" id="tid_ad_city" name="tid_ad_city"></div>
+                    </div>
+                    <div class="field middle">
+                        <label>Улица</label>
+                        <div class="input"><input type="text" id="tid_ad_street" name="tid_ad_street"></div>
+                    </div>
+                    <div class="field small">
+                        <label>Дом</label>
+                        <div class="input"><input type="text" id="tid_ad_entrance_num" name="tid_ad_entrance_num"></div>
+                    </div>
+                    <div class="field small">
+                        <label>Корпус</label>
+                        <div class="input"><input type="text" id="tid_ad_corpus" name="tid_ad_corpus"></div>
+                    </div>
+                    <div class="field middle">
+                        <label>Квартира</label>
+                        <div class="input"><input type="text" id="tid_ad_flat" name="tid_ad_flat"></div>
+                    </div>
+                    <a class="btn btn-orange pull-right openModal"  id="editInfoAddressSubmit"  href="#yourData">Сохранить</a>
+                    <div style="clear:both;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal" id="editInfoEmail">
+            <div class="head bg-gray">E-mail<div class="close"></div></div>
+            <div class="block inline-form">
+                <form class="small-margin">
+                    <div class="field">
+                        <label>E-mail</label>
+                        <div class="input"><input type="text"></div>
+                    </div>
+                    <a class="btn btn-orange pull-right openModal" href="#yourData">Сохранить</a>
+                    <div style="clear:both;"></div>
+                </form>
+            </div>
+        </div>
+
+                
+        <div class="modal " id="editInfoPhone">
+            <div class="head bg-gray"><span id="tid_con_type"></span><div class="close"></div></div>
+            <div class="block inline-form">
+                <form class="small-margin" id="editInfoPhoneForm">
+                    <div class="field">
+                        <label id="tid_con_type2">Номер телефона</label>
+                        <input type='hidden' id='tid_tpc_id' name='tid_tpc_id'>
+                        <input type='hidden' id='tid_tpc_tip' name='tid_tpc_tip'>
+                        <input type='hidden' name="tid_con_type_id">
+                        <div class="input"><input type="text" id='tid_con_value' name='tid_con_value'></div>
+                    </div>
+                    <a class="btn btn-orange pull-right openModal" id="editInfoPhoneSubmit" href="#yourData">Сохранить</a>
+                    <a class="btn btn-orange pull-right delete-button" href="#yourData">Удалить</a>
+                    <div style="clear:both;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal" id="editInfoWorkphone">
+            <div class="head bg-gray">Рабочий телефон<div class="close"></div></div>
+            <div class="block inline-form">
+                <form class="small-margin">
+                    <div class="field">
+                        <label>Номер телефона</label>
+                        <div class="input"><input type="text"></div>
+                    </div>
+                    <a class="btn btn-orange pull-right openModal" href="#yourData">Сохранить</a>
+                    <div style="clear:both;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal" id="editInfoHomephone">
+            <div class="head bg-gray">Домашний телефон<div class="close"></div></div>
+            <div class="block inline-form">
+                <form class="small-margin">
+                    <div class="field">
+                        <label>Номер телефона</label>
+                        <div class="input"><input type="text"></div>
+                    </div>
+                    <a class="btn btn-orange pull-right openModal" href="#yourData">Сохранить</a>
+                    <div style="clear:both;"></div>
+                </form>
+            </div>
+        </div>
+
+                <div class="modal" id="addUserField">
+            <div class="head bg-gray">Добавить телефон</div><div class="close"></div>
+            <form action="/ajax/addUserContact.php">
+                <div class="block">
+                    <div class="field">
+                        <label>Номер телефона</label>
+                        <div class="input">
+                            <input type="text" name="value">
+                        </div>
+                        <input type="hidden" name="user_ppf">
+                        <input type="hidden" name="user_type">
+                    </div>
+                    <input type="submit" class="btn btn-orange pull-right mt20" value="Сохранить">
+            </form>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+    <div class="modal" id="editInfo">
+        <div class="head bg-gray">Уведомление<div class="close"></div> </div>
+        <div class="block">
+            <div class="info">
+                Изменения успешно приняты.
+            </div>
+            <a class="btn btn-orange pull-right mt20 aclose" href="">OK</a>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+        <div id='PrintBlank' class="modal" style="width:630px;">
+                <div class="head bg-gray">Печать квитанции | <a href="#" class = "back">Назад</a><div class="close"></div></div>
+        <div class="block">
+            <form id="print_police" action="/print_blank/" target="_blank">
+                <table >
+                    <tr>
+                        <td class="name">Номер полиса:</td>
+                        <td>
+                            <input type="text" name="policenumber" style="width: 110px;"  value="" disabled >
+                            <input type="hidden" name="policenumber" >
+                            <div class="note"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">ФИО плательщика:</td>
+                        <td width="295px">
+                            <input type="text" name="fio" style="width: 295px;" value="" disabled>
+                            <input type="hidden" name="fio" >
+                            <div class="note"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">Cумма:</td>
+                        <td>
+                            <input type="text" name="sum_rub" readonly onkeypress="return checkinput(event)" value=""
+                                   error_message="Сумма не может быть пустой или 0" style="width: 110px;"><span>руб.</span>
+                            <input type="text" name="sum_kop" readonly onkeypress="return checkinput(event)"
+                                   style="width: 110px;" maxlength="2"><span>коп.</span>
+                            <div class="note"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name" >Регион:</td>
+                        <td>
+                            <select name="region" error_message="Укажите регион" style="width: 295px;">
+                                    <option>Выберите регион</option>
+                                    <option value="Алтайский край">Алтайский край</option>
+                                    <option value="Амурская область">Амурская область</option>
+                                    <option value="Архангельская область">Архангельская область</option>
+                                    <option value="Астраханская область">Астраханская область</option>
+                                    <option value="Белгородская область">Белгородская область</option>
+                                    <option value="Брянская область">Брянская область</option>
+                                    <option value="Владимирская область">Владимирская область</option>
+                                    <option value="Волгоградская область">Волгоградская область</option>
+                                    <option value="Вологодская область">Вологодская область</option>
+                                    <option value="Воронежская область">Воронежская область</option>
+                                    <option value="Еврейская автономная область">Еврейская автономная область</option>
+                                    <option value="Забайкальский край">Забайкальский край</option>
+                                    <option value="Ивановская область">Ивановская область</option>
+                                    <option value="Иркутская область">Иркутская область</option>
+                                    <option value="Кабардино-Балкарская Республика">Кабардино-Балкарская Республика</option>
+                                    <option value="Калининградская область">Калининградская область</option>
+                                    <option value="Калужская область">Калужская область</option>
+                                    <option value="Камчатский край">Камчатский край</option>
+                                    <option value="Кемеровская область">Кемеровская область</option>
+                                    <option value="Кировская область">Кировская область</option>
+                                    <option value="Костромская область">Костромская область</option>
+                                    <option value="Краснодарский край">Краснодарский край</option>
+                                    <option value="Красноярский край">Красноярский край</option>
+                                    <option value="Курганская область">Курганская область</option>
+                                    <option value="Курская область">Курская область</option>
+                                    <option value="Ленинградская область">Ленинградская область</option>
+                                    <option value="Липецкая область">Липецкая область</option>
+                                    <option value="Магаданская область">Магаданская область</option>
+                                    <option value="Москва город">Москва город</option>
+                                    <option value="Московская область">Московская область</option>
+                                    <option value="Мурманская область">Мурманская область</option>
+                                    <option value="Ненецкий автономный округ">Ненецкий автономный округ</option>
+                                    <option value="Нижегородская область">Нижегородская область</option>
+                                    <option value="Новгородская область">Новгородская область</option>
+                                    <option value="Новосибирская область">Новосибирская область</option>
+                                    <option value="Омская область">Омская область</option>
+                                    <option value="Оренбургская область">Оренбургская область</option>
+                                    <option value="Орловская область">Орловская область</option>
+                                    <option value="Пензенская область">Пензенская область</option>
+                                    <option value="Пермский край">Пермский край</option>
+                                    <option value="Приморский край">Приморский край</option>
+                                    <option value="Псковская область">Псковская область</option>
+                                    <option value="Республика Адыгея">Республика Адыгея</option>
+                                    <option value="Республика Алтай">Республика Алтай</option>
+                                    <option value="Республика Башкортостан">Республика Башкортостан</option>
+                                    <option value="Республика Бурятия">Республика Бурятия</option>
+                                    <option value="Республика Дагестан">Республика Дагестан</option>
+                                    <option value="Республика Ингушетия">Республика Ингушетия</option>
+                                    <option value="Республика Калмыкия">Республика Калмыкия</option>
+                                    <option value="Республика Карачаево-Черкесия">Республика Карачаево-Черкесия</option>
+                                    <option value="Республика Карелия">Республика Карелия</option>
+                                    <option value="Республика Коми">Республика Коми</option>
+                                    <option value="Республика Крым">Республика Крым</option>
+                                    <option value="Республика Марий Эл">Республика Марий Эл</option>
+                                    <option value="Республика Мордовия">Республика Мордовия</option>
+                                    <option value="Республика Саха (Якутия)">Республика Саха (Якутия)</option>
+                                    <option value="Республика Северная Осетия-Алания">Республика Северная Осетия-Алания</option>
+                                    <option value="Республика Татарстан">Республика Татарстан</option>
+                                    <option value="Республика Тыва">Республика Тыва</option>
+                                    <option value="Республика Хакасия">Республика Хакасия</option>
+                                    <option value="Ростовская область">Ростовская область</option>
+                                    <option value="Рязанская область">Рязанская область</option>
+                                    <option value="Самарская область">Самарская область</option>
+                                    <option value="Санкт-Петербург город">Санкт-Петербург город</option>
+                                    <option value="Саратовская область">Саратовская область</option>
+                                    <option value="Сахалинская область">Сахалинская область</option>
+                                    <option value="Свердловская область">Свердловская область</option>
+                                    <option value="Севастополь город">Севастополь город</option>
+                                    <option value="Смоленская область">Смоленская область</option>
+                                    <option value="Ставропольский край">Ставропольский край</option>
+                                    <option value="Тамбовская область">Тамбовская область</option>
+                                    <option value="Тверская область">Тверская область</option>
+                                    <option value="Томская область">Томская область</option>
+                                    <option value="Тульская область">Тульская область</option>
+                                    <option value="Тюменская область">Тюменская область</option>
+                                    <option value="Удмуртская Республика">Удмуртская Республика</option>
+                                    <option value="Ульяновская область">Ульяновская область</option>
+                                    <option value="Хабаровский край">Хабаровский край</option>
+                                    <option value="Ханты-Мансийский автономный округ - Югра">Ханты-Мансийский автономный округ - Югра</option>
+                                    <option value="Челябинская область">Челябинская область</option>
+                                    <option value="Чеченская республика">Чеченская республика</option>
+                                    <option value="Чувашская Республика">Чувашская Республика</option>
+                                    <option value="Чукотский автономный округ">Чукотский автономный округ</option>
+                                    <option value="Ямало-Ненецкий автономный округ">Ямало-Ненецкий автономный округ</option>
+                                    <option value="Ярославская область">Ярославская область</option>
+                            </select>
+                            <div class="note"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name" >Адрес:</td>
+                        <td>
+                            <input type="text" name="address" error_message="Укажите адрес" style="width: 295px;">
+                            <div class="note"></div>
+                            <div class="hnote">Пример: Москва, 4-й Лесной пер., д. 14, кв. 15</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name" >Индекс:</td>
+                        <td>
+                            <input type="text" name="index"  name="sum_kop" onkeypress="return checkinput(event)"
+                                   maxlength="6" error_message="Укажите индекс" style="width: 110px;">
+                            <div class="note"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button>Подготовить бланк</button></td>
+                        <td>
+                            <div class="input_error"></div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <form action='link' id='form' target='_blank'></form>
+        </div>
+    </div>
+    <!--Попап на смену способа уведовления, ввоод email/телефона-->
+    <div class="modal" id="changeMethodNotification" style="width: 627px;">
+        <div class="block" style="width: 627px;">
+            <div class="offer-text"></div>
+            <div style="display: block;height: 60px;text-align: center;border-bottom: 1px solid;">
+                <div style="display: inline-block;float:left;">
+                    <input type="button" class="btn btn-orange btCclose bx-add mt20" value="Отмена" onclick="//fillFormAddUser('1', 5)" style="width: 155px">
+                </div>
+                <div style="display: inline-block;float:right; width=130">
+                    <input type="button" class="btn btn-orange pull-right bx-later mt20 bx-addContanct" value="Добавить" style="width: 155px">
+                </div>
+            </div>
+            <div class="confidetiality-text"></div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+    <div class="modal" id="changeNotifType" style="width: 627px;">
+        <div class="block" style="width: 627px;">
+            <div class="offer-text"></div>
+            <div style="display: block;height: 60px;text-align: center;">
+                <div style="display: inline-block;float:left;">
+                    <input type="button" class="btn btn-orange btCclose bx-add mt20" value="Отмена" onclick="$('#selectCont_'+$conId).attr('data-mess','back');$('#tcd_notif_type_form_'+$conId+' .tcd_notif_type_form_submit').click();" style="width: 155px">
+                </div>
+                <div style="display: inline-block;float:right; width=130">
+                    <input type="button" class="btn btn-orange pull-right bx-later mt20" onclick="$('#selectCont_'+$conId).attr('data-mess','go');$('#tcd_notif_type_form_'+$conId+' .tcd_notif_type_form_submit').click();" value="Да" style="width: 155px">
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+    <!--Попап на ответ в блоках вопрсов    -->
+    <div class="modal" id="responseOnInterview" style="margin: 300px auto;">
+        <div class="head bg-gray" style="padding: 16px;font-size: 12px;text-align: center;">
+            Печать квитанции<div class="close"></div>
+        </div>
+        <div class="block" style="text-align: center;">
+            Спасибо за внимание
+        </div>
+        <div style="padding-top: 5px; padding-bottom: 10px; text-align: center; background-color: #fff">
+            <p>Присоединяйтесь к нам в социальных сетях</p>
+            <a href="https://vk.com/ppf_life" target="_blank"><img src="img/vk.png" style="border"></a>
+            <a href="http://ok.ru/ppfinsurance" target="_blank"><img src="img/odnoklassniki.png" style="border"></a>
+            <a href="https://facebook.com/ppfinsurance/" target="_blank"><img src="img/facebook2.png" style="border"></a>
+
+
+        </div>
+
+    </div>
+
+    <!--Попап на смену добавление контактной информации и смены способа уведовления-->
+    <div class="modal" id="addUserFieldNotification">
+        <div class="head bg-gray">Добавить телефон</div><div class="close"></div>
+        <form action="/ajax/?save_notif_type">
+            <div class="block">
+                <div class="field">
+                    <label>Номер телефона</label>
+                    <div class="input">
+                        <input type="text" name="value">
+                    </div>
+                    <input type="hidden" name="user_ppf">
+                    <input type="hidden" name="user_type">
+                    <input type="hidden" name="tcd_notif_type_id">
+                    <input type="hidden" name="con_id">
+                    <input type="hidden" name="tcd_notif_type">
+
+                </div>
+                <input type="submit" class="btn btn-orange pull-right mt20" value="Сохранить">
+        </form>
+        <div style="clear:both;"></div>
+    </div>
+    </div>
+    </div><!-- /mask -->
+
+<div style="position:relative;z-index: 2;background-color: white;">
+
+
+<div class="header">
+    <div class="container p30">
+        <span class="item logo"><a href="/">
+        <img src="img/lgtype_2.png" /></a></span>
+    </div>
+
+    <script type="text/javascript">
+        //$(document).ready(function(){
+           // $('.tab:first-child').trigger('click');
+        //});
+    </script>
+
+        <div class="container ">
+        <a class="tab active" href="/">Мои договоры</a>
+        <a class="tab" href="/insurance_case/">Страховой случай</a>
+        <a class="tab" href="/tax_deduction/">Налоговый вычет</a>
+        <a class="tab" href="/personal-profile/">Мой профиль</a>
+        <!-- <a class="tab" href="/messages">Уведомления</a> -->
+        <div style="clear:both;"></div>
+        <div class="auth">
+            <a href="#">
+                <div class="user">Павел Викторович П.</div>
+            </a>
+
+            <div class="user_panel"><a href="/messages/">Уведомления
+                    (0)</a> | <a href="/faq/">FAQ</a> | <a
+                    href="/?logout">Выход</a></div>
+        </div>
+    </div>
+    <noscript>
+        <div class='mask active'>
+            <div class="modal active" id="changePassword" style='margin-top:15px;'>
+                <div class="head bg-gray" style='background-color:#e9ebf1;color:#000;'>Отключен JavaScript</div>
+                <div class="block" style='background-color:#0e205d;'>
+                    Уважаемый клиент, для корректной работы личного кабинета необходимо разрешить использование
+                    javascript в настройках вашего браузера.
+                </div>
+            </div>
+        </div>
+        </div>
+    </noscript>
+
+
+    </div>
+
+    <div class=" container">
+        <div class="admin-404">
+			<div class="admin-404__404">
+				404
+			</div>
+			<div class="admin-404__header">
+				Страница не найдена
+			</div>
+			<div class="admin-404__text">
+				Попробуйте начать с 
+				<a href="#">главной страницы договоров</a>
+			</div>
+        </div>
+    </div>
+</div>
+
+<div class="container footer mt20">
+    ООО «ППФ Страхование жизни», Лицензии Банка России СЖ №3609 и СЛ №3609. РФ, 108811, город Москва, километр Киевское шоссе 22-й (п. Московский), домовл. 6, строение 1.<br/>
+    Тел.: +7 (495) 785-82-00 или 8-800-775-82-00
+    <div style="padding-top: 20px;">
+        <p>Присоединяйтесь к нам в социальных сетях</p>
+        <a href="https://vk.com/ppf_life" target="_blank">
+            <img src="img/vk.png" style="border"></a>
+        <a href="http://ok.ru/ppfinsurance" target="_blank">
+            <img src="img/odnoklassniki.png" style="border"></a>
+
+        <a href="https://facebook.com/ppfinsurance/" target="_blank">
+            <img src="img/facebook2.png" style="border">
+        </a>
+    </div>
+</div>
+
+        </body>
+    </html>
